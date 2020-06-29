@@ -1,5 +1,9 @@
 const User = require('../models/user');
 const crypto=require('crypto');
+const resetMailers=require('../mailers/reset_mailer');  //require resetMailers to send mail
+const loginMailer=require('../mailers/login_mailers'); //require login_Mailers to send mail
+const bcrypt = require('bcrypt');                           //require bcrypt to encrypt
+const saltRounds = 10;
 
 module.exports.profile = function(req, res){
     return res.render('user_profile', {
@@ -116,7 +120,7 @@ module.exports.reset=function(req,res){
         })
 
         //send mail to user a new password
-        resetMailers.newReset(user);
+        resetMailers.newReset(user,new_pass);
 
                 return res.render('sendMail',{
                     title:'Gaggle | Reset password'
