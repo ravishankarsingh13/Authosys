@@ -54,7 +54,7 @@ This is a node project which consists of Authentication modules like passport.js
 1. Clone this project
 2. Start by installing npm and mongoDB if you don't have them already.
 3. Run the Mongo Server.
-4. Create a google login credentials and subsequently a google Oauth ID. Refer this : https://developers.google.com/identity/protocols/oauth2
+4. Create a google login credentials and subsequently a google Oauth ID. Refer this : https://console.developers.google.com/
 5. Create a dummy email id which can be used by mailer.
 6. Navigate to Project Directory by :
     >cd Authosys

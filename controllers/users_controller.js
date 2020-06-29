@@ -1,4 +1,5 @@
 const User = require('../models/user');
+//for random keys and encryption and mailer
 const crypto=require('crypto');
 const resetMailers=require('../mailers/reset_mailer');  //require resetMailers to send mail
 const loginMailer=require('../mailers/login_mailers'); //require login_Mailers to send mail
