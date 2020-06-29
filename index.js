@@ -11,6 +11,10 @@ const middleware=require('./config/middleware');
 const passportLocal = require('./config/passport-local-strategy');
 const googlePassport = require('./config/passport-google-oauth2-strategy');
 const MongoStore = require('connect-mongo')(session);
+require('dotenv').config();                                                 //configure dotenv for ENv VARIABLES
+
+
+console.log(process.env);
 
 app.use(express.urlencoded()); 
 app.use(cookiesparser());
