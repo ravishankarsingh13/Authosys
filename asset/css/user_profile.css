@@ -10,9 +10,9 @@
         font-size: large; }
 
 input[type="submit"]{
-    background-color: rgba(255, 99, 71, 0.76);
+    background-color: rgba(41, 33, 112, 0.76);
     border: none;
 }
 input[type="submit"]:hover{
-    background-color: rgba(241, 58, 25, 0.76);
+    background-color: rgba(105, 29, 112, 0.76);
 }

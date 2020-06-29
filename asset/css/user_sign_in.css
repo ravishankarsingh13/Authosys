@@ -10,11 +10,11 @@
         font-size: large; }
 
 input[type="submit"]{
-    background-color: rgba(255, 99, 71, 0.76);
+    background-color: rgba(74, 23, 107, 0.76);
     border: none;
 }
 input[type="submit"]:hover{
-    background-color: rgba(241, 58, 25, 0.76);
+    background-color: rgba(71, 34, 95, 0.76);
 }
 @import url(https://fonts.googleapis.com/css?family=Roboto:500);
 .google-btn {

@@ -22,7 +22,7 @@ app.set('view engine','ejs');
 app.set('views','./views');
 // mongo store is being used to store session cookie in the db
 app.use(session({
-    name: "Systemauth",
+    name: "Authosys",
     // ToDo Change this secret before deployment in production-mode
     secret: "TheSecretKeyIsHiddenSomeWhereInThisDirectory",
     saveUninitialized: false,
